@@ -1,0 +1,9 @@
+services:
+  web-server:
+    build: 
+      context: /Users/macbookdejuan/Library/CloudStorage/OneDrive-Personal/Code/Platzi/Python_Back_End/PIP_y_entornos_virtuales/py-project/app/
+      dockerfile: Dockerfile
+    volumes:
+      - .:/Users/macbookdejuan/Library/CloudStorage/OneDrive-Personal/Code/Platzi/Python_Back_End/PIP_y_entornos_virtuales/py-project/app/
+    ports:
+      - '80:80'
