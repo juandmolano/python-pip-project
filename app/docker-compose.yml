@@ -1,0 +1,5 @@
+services:
+  app-csv:
+    build: 
+      context: /Users/macbookdejuan/Library/CloudStorage/OneDrive-Personal/Code/Platzi/Python_Back_End/PIP_y_entornos_virtuales/py-project/app/
+      dockerfile: Dockerfile
